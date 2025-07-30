@@ -38,9 +38,9 @@ dp = Dispatcher()
 # Використовуємо змінні BTN_ для назв кнопок
 main_keyboard = ReplyKeyboardMarkup(
     keyboard=[
+        [KeyboardButton(text=BTN_ABOUT)],
         [KeyboardButton(text=BTN_HELLO)],
         [KeyboardButton(text=BTN_RETURN)],
-        [KeyboardButton(text=BTN_ABOUT)],
         [KeyboardButton(text=BTN_SITE)]
     ],
     resize_keyboard=True
